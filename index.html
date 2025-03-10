@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="logo.png" class="logo" />
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="main">
+      <div class="main-text">
+        <h1>Hi, I'm Anupama Subramanian</h1>
+        <p><i class="fa-solid fa-code"></i> Java Developer</p>
+        <div class="socialmedia">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/Anupama001"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/anupama-subramanian-4624031ba/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+        <a href="#" class="btn" id="downloadBtn"
+          ><i class="fa-solid fa-download"></i> Download CV</a
+        >
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub">About me</h1>
+            <p class="aboutme">
+              Java Developer with experience in designing, developing, and
+              debugging software applications. Proficient in Java,
+              Object-Oriented Programming (OOP), SQL, Microservices, and REST
+              APIs. Skilled in using Spring Boot, Hibernate, and Postman to
+              build scalable and efficient applications. Experienced in
+              troubleshooting software issues, integrating third-party APIs, and
+              optimizing system performance. Strong problem-solving abilities
+              with a keen focus on seamless user experiences. Excellent
+              communicator and team player, dedicated to continuous learning and
+              innovation in software development.
+            </p>
+            <div class="tab-title">
+              <p class="tab-link active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-link" onclick="opentab('experience')">Experience</p>
+              <p class="tab-link" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages :</span
+                  ><b style="font-size: large"> Java, HTML, CSS</b>
+                </li>
+                <li>
+                  <span>Database & Query Language :</span><b style="font-size: large"> MySQL, SQL</b>
+                </li>
+                <li>
+                  <span>Concepts :</span><b style="font-size: large"> Object-Oriented Programming (OOP), REST API</b>
+                </li>
+                <li>
+                  <span>Frameworks/Tools :</span><b style="font-size: large"> JDBC, Hibernate, Spring MVC, SpringBoot, Bootstrap, Vaadin</b>
+                </li>
+                <li>
+                  <span>Cloud & Version Control :</span><b style="font-size: large"> AWS(Basic Knowledge), GitHub</b>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+                <ul class="experience-list">
+                  <li>
+                    <h3>Easytronix Pvt Ltd</h3>
+                    <p><b>Java Developer</b> | Jan 2024 - Present</p>
+                  </li>
+                  <li>
+                    <p><i class="fa-solid fa-check"></i> Developed and optimized <b>Dr. Pocket</b>, a digital healthcare platform, enabling seamless online and in-person consultations for patients and doctors.</p>
+                  </li>
+                  <li>
+                    <p><i class="fa-solid fa-check"></i> Designed and implemented user registration and authentication modules to ensure secure patient and doctor data handling.</p>
+                  </li>
+                  <li>
+                    <p><i class="fa-solid fa-check"></i> Integrated third-party APIs to expand platform reach and implement referral programs for increased user engagement.</p>
+                  </li>
+                  <li>
+                    <p><i class="fa-solid fa-check"></i> Collaborated with front-end developers and designers to deliver end-to-end solutions, focusing on performance and user experience.</p>
+                  </li>
+                  <li>
+                    <p><i class="fa-solid fa-check"></i> Conducted code reviews and testing to identify and resolve software issues.</p>
+                  </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="education">
+                <ul>
+                <li>
+                  <h3>Government Engineering College Idukki</h3>
+                  <p>B.Tech Electronics and Communication Engineering</p>
+                  <p>2019 – 2023</p>
+                </li>
+                <li>
+                  <h3>Government Higher Secondary School Peringottukara, Thrissur</h3>
+                  <p>Class XII</p>
+                  <p>2017 – 2019</p>
+                </li>
+                <li>
+                  <h3>Seraphic Convent Girls High School Peringottukara, Thrissur</h3>
+                  <p>Class X</p>
+                  <p>2016 – 2017</p>
+                </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="service">
+      <h1 class="sub">My Services</h1>
+      <div class="service-list">
+        <div>
+          <i class="fa-solid fa-laptop-code"></i>
+          <h2>Web Development</h2>
+          <p>
+            Creating responsive and dynamic websites using HTML, CSS, and JavaScript. Proficient in using frameworks like Bootstrap and Vaadin to build user-friendly interfaces.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Java Development</h2>
+          <p>
+            Expertise in Java programming, including Object-Oriented Programming (OOP) and REST API development. Skilled in using frameworks like Spring Boot and Hibernate to build scalable applications.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Database Management</h2>
+          <p>
+            Proficient in MySQL and SQL for database management. Experienced in designing and optimizing database schemas and writing efficient queries.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div id="project">
+      <h1 class="sub">My Projects</h1>
+      <div class="project-list">
+        <div class="project">
+          <img src="mobile.jpg" />
+          <div class="layer">
+            <h3>Dr Pocket</h3>
+            <p>
+              Developed a platform for online and in-person consultations with additional services like
+pharmaceuticals and nursing.
+Integrated a flexible and secure payment system for patient consultations and doctor
+appointments.
+Implemented profile management for patients and doctors, allowing detailed medical history to
+guide accurate treatment recommendations.
+Integrates third-party services for marketing and referrals, enhancing platform reach and
+popularity.
+Facilitates trust between users through doctor reviews and secure appointment scheduling.
+Supports video and audio consultations with streamlined payment and scheduling processes.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="mobile.jpg" />
+          <div class="layer">
+            <h3>Driver Drowsiness Detection And Alerting System</h3>
+            <p>
+              Developed a system to detect driver drowsiness and prevent accidents, integrating image
+processing techniques.
+Utilized camera monitoring to track the driver’s face and eyes, employing Mouth Aspect Ratio
+(MAR) and Eye Aspect Ratio (EAR) for detection.
+Implemented algorithms to analyze eye and mouth closure status, alerting the driver with a sound
+if drowsiness is detected.
+Designed the system to send accident alerts and information to family members, enhancing safety
+measures.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="mobile.jpg" />
+          <div class="layer">
+            <h3>Hotel Management System</h3>
+            <p>
+              Developed a hotel management system using Java and JDBC for efficient data management and
+              persistence. Implemented core functionalities such as booking.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub">Contact Me</h1>
+          <p>
+            <a
+              href="mailto:iamanupama01@gmail.com.com?subject=Subject%20Here&body=Body%20Text%20Here"
+              ><i class="fa-regular fa-paper-plane"></i
+            ></a>
+            iamanupama01@gamil.com
+          </p>
+          <p>
+            <i class="fa-solid fa-phone" style="color: blue"></i> 9188398508
+          </p>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="btn1">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+      <div class="copyright">
+        <p></p>
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Anupama Subramanian portfolio. All rights
+        reserved.
+      </p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <script>
+      var tablink = document.getElementsByClassName("tab-link");
+      var tabcontent = document.getElementsByClassName("tab-content");
+      function opentab(tabname) {
+        for (tablinks of tablink) {
+          tablinks.classList.remove("active-link");
+        }
+        for (tabcontents of tabcontent) {
+          tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+      document
+        .getElementById("downloadBtn")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          const filePath = "__Anupama__.pdf";
+          const tempLink = document.createElement("a");
+          tempLink.href = filePath;
+          tempLink.download = "__Anupama__.pdf";
+          tempLink.click();
+          tempLink.remove();
+        });
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxn8aMzgs-YQnLf1bRdUZcy1p4-yVL4D_qQtddXvYODuYv79xieMIqhOQSaxt26-Nickg/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent sucessfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
